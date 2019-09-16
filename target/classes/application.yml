@@ -1,0 +1,26 @@
+azure:
+  activedirectory:
+    b2c:
+      tenant: vkedsoubc2test
+      oidc-enabled: true
+      client-id: 00c4b8d2-1efa-4707-a148-da7961e8b425
+      client-secret: s--t5ZRDBy/T5zsutHrfLQ=Pq3O6bbQj
+      reply-url: https://v-kedsoub2cjavalinux.azurewebsites.net/home
+      logout-success-url: https://www.google.com
+      user-flows:
+        sign-up-or-sign-in: B2C_1_sign_in_v2
+        profile-edit: B2C_1_profile_edit    
+        password-reset: B2C_1_password_reset
+server:
+  use-forward-headers: true
+  tomcat: 
+    accesslog: 
+      enabled: true
+
+logging:
+  level:
+    org:
+      springframework: DEBUG
+      apache:
+        tomcat: DEBUG
+

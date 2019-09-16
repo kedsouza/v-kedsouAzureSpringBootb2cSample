@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\v-kedsou\Documents\bc2_fresh\repo.2.1.6m2\src\main\java\sample\aad\AzureADB2COIDCSampleApplication.java">
+</file>
+<file name="C:\Users\v-kedsou\Documents\bc2_fresh\repo.2.1.6m2\src\main\java\sample\aad\controller\WebController.java">
+</file>
+<file name="C:\Users\v-kedsou\Documents\bc2_fresh\repo.2.1.6m2\src\main\java\sample\aad\security\WebSecurityConfiguration.java">
+</file>
+</checkstyle>
